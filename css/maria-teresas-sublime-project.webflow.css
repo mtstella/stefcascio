@@ -331,19 +331,19 @@ figcaption {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 0px;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   font-family: Cardo, sans-serif;
   font-size: 64px;
   line-height: 80px;
@@ -617,9 +617,9 @@ figcaption {
   align-items: center;
   border-radius: 0px;
   background-color: #000;
-  background-image: url('../images/Rectangle-4.png'), url('../images/WhatsApp-Image-2020-11-14-at-19.26.03-1.jpeg');
+  background-image: url('../images/SC_Overlay.png'), url('../images/SC_Hero.png');
   background-position: 0px 0px, 50% 100%;
-  background-size: auto, cover;
+  background-size: cover, cover;
   background-attachment: scroll, fixed;
   opacity: 1;
   color: #fff;
@@ -629,11 +629,10 @@ figcaption {
   height: 480px;
   margin-bottom: 0px;
   background-color: #000;
-  background-image: url('../images/Rectangle-4.png'), url('../images/WhatsApp-Image-2020-11-14-at-19.26.03.jpeg');
-  background-position: 0px 0px, 0% 0%;
-  background-size: auto, cover;
-  background-repeat: repeat, repeat-x;
-  background-attachment: scroll, fixed;
+  background-image: url('../images/SC_Overlay.png'), url('../images/SC_BioHero.png');
+  background-position: 0px 0px, 50% 0%;
+  background-size: cover, cover;
+  background-attachment: scroll, scroll;
   opacity: 1;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
@@ -1597,6 +1596,16 @@ figcaption {
 
 .heading {
   font-family: Cardo, sans-serif;
+}
+
+.text-block-3 {
+  font-family: Cardo, sans-serif;
+  font-size: 12px;
+}
+
+.text-block-4 {
+  font-family: Cardo, sans-serif;
+  font-size: 12px;
 }
 
 @media screen and (max-width: 991px) {
