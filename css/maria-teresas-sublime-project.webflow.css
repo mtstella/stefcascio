@@ -1599,6 +1599,7 @@ figcaption {
 }
 
 .text-block-3 {
+  justify-content: center;
   font-family: Cardo, sans-serif;
   font-size: 12px;
 }
